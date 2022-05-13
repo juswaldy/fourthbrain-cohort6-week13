@@ -79,7 +79,7 @@ Point your browser to http://localhost:8000/docs.
 
 Click the `/sentiment` endpoint.
 
-![sentiment](https://raw.githubusercontent.com/juswaldy/fourthbrain-cohort6-week13/main/pics/score.PNG)
+![sentiment](https://raw.githubusercontent.com/juswaldy/fourthbrain-cohort6-week13/main/pics/sentiment.PNG)
 
 </details>
 
@@ -88,7 +88,7 @@ Click the `/sentiment` endpoint.
 
 Type the last thing you heard someone say to you for the `query_string` parameter.
 
-![sentence](https://raw.githubusercontent.com/juswaldy/fourthbrain-cohort6-week13/main/pics/score.PNG)
+![sentence](https://raw.githubusercontent.com/juswaldy/fourthbrain-cohort6-week13/main/pics/sentence.PNG)
 
 Can you beat my score?
 
