@@ -75,11 +75,11 @@ uvicorn --host 0.0.0.0 --port 8000 main:app
 
 Point your browser to http://localhost:8000/docs.
 
-![docs](pics/docs.png)
+![docs](https://raw.githubusercontent.com/juswaldy/fourthbrain-cohort6-week13/main/pics/docs.PNG)
 
 Click the `/sentiment` endpoint.
 
-![sentiment](pics/sentiment.png)
+![sentiment](https://raw.githubusercontent.com/juswaldy/fourthbrain-cohort6-week13/main/pics/score.PNG)
 
 </details>
 
@@ -88,10 +88,10 @@ Click the `/sentiment` endpoint.
 
 Type the last thing you heard someone say to you for the `query_string` parameter.
 
-![sentence](pics/sentence.png)
+![sentence](https://raw.githubusercontent.com/juswaldy/fourthbrain-cohort6-week13/main/pics/score.PNG)
 
 Can you beat my score?
 
-![score](pics/score.png)
+![score](https://raw.githubusercontent.com/juswaldy/fourthbrain-cohort6-week13/main/pics/score.PNG)
 
 </details>
