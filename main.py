@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from transformers import pipeline
+from models import huggingface as hf
 
 
 app = FastAPI()
@@ -13,11 +13,6 @@ class PredictionRequest(BaseModel):
     query_string: str
 
 ################################################################################
-# Load models.
-
-sentiment_model = pipeline("sentiment-analysis")
-
-################################################################################
 # Setup endpoints.
 
 @app.get("/health")
@@ -27,5 +22,5 @@ def health():
 @app.post("/sentiment")
 def sentiment(request: PredictionRequest):
       # YOUR CODE GOES HERE
-      return sentiment_model(request.query_string)
+      return hf.sentiment_model(request.query_string)
 
